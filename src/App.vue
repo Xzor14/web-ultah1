@@ -17,7 +17,8 @@
         </div>
         <span v-else class="text-[10px] font-bold text-gray-400">PLAY</span>
       </button>
-      <audio ref="audioRef" loop src="assets/music/mela.mp3"></audio>
+<audio ref="audioRef" loop src="/music/mela.mp3"></audio>
+
     </div>
 
     <header class="relative h-screen flex flex-col items-center justify-center text-center px-4 overflow-hidden">
