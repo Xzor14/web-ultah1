@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta property="og:title" content="Happy 19th Birthday Siti Melaroja 🎂" />
+    <meta property="og:description" content="Kejutan spesial untuk hari bahagiamu." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80" />
+    
+    <title>Siti Melaroja - 19th Special</title>
+    
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Pinyon+Script&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'gold': '#bf953f',
+              'rose-gold': '#b76e79',
+            },
+            fontFamily: {
+              'cinzel': ['Cinzel', 'serif'],
+              'satoshi': ['Satoshi', 'sans-serif'],
+              'pinyon': ['Pinyon Script', 'cursive'],
+            },
+            animation: {
+              'spin-slow': 'spin 8s linear infinite',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body { background-color: #050505; color: #fff; overflow-x: hidden; }
+      ::-webkit-scrollbar { width: 5px; }
+      ::-webkit-scrollbar-thumb { background: #bf953f; border-radius: 10px; }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
